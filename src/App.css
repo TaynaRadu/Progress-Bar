@@ -1,0 +1,49 @@
+h1 {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button i {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+button:hover {
+  background-color: #2e8b57;
+}
+
+button:disabled {
+  color: gray;
+  background-color: lightgray;
+  border-color: darkgray;
+  cursor: not-allowed;
+}
+
+.message {
+  text-align: center;
+  font-size: 2rem;
+  color: #4caf50;
+}
